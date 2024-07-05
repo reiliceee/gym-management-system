@@ -1,0 +1,186 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure the container takes the full viewport height */
+}
+
+.image {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  left: 0;
+  top: 73px;
+  max-width: 16000px;
+  max-height: 620px;
+}
+
+.text-container {
+  position: absolute;
+  width: 30vw; /* Adjust width based on viewport width */
+  height: auto; /* Let the height adjust automatically */
+  left: 10vw; /* Adjust left based on viewport width */
+  top: 30vh; /* Adjust top based on viewport height */
+  font-family: 'Poetsen One', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3vw; /* Adjust font size based on viewport width */
+  line-height: 1.2; /* Adjust line-height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  text-align: center; /* Ensure text is centered within the container */
+}
+
+
+.text-container .yellow-text {
+  color: yellow; /* Apply yellow color to the specific text */
+  margin-top: 1vh;
+}
+
+.logo-client {
+  position: absolute;
+  width: 272px;
+  height: 104px;
+  left: 0px; /* Move the logo to the left side */
+  top: -17px;
+  display: flex;
+  align-items: center;
+  gap: 3px; /* Adjust the gap between the image and text if needed */
+}
+
+.logo-image {
+  width: 4vw; /* Use viewport width for responsiveness */
+  max-width: 60px; /* Set a max-width */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensure the image fits within the specified dimensions */
+}
+
+.bold-text {
+  font-weight: bold;
+  font-family: 'Poetsen One', sans-serif;
+  letter-spacing: 0.05em;
+  color:rgb(27, 43, 43);
+}
+
+.rectangle67 {
+  position: absolute;
+  width: 100%; /* Set width to 100% to match the .image width */
+  height: 22.97vh; /* Adjust height based on viewport height for responsiveness */
+  left: 0; /* Align left with the container */
+  top: calc(190px + 38.14vh); /* Adjust top to align with the bottom of the .image */
+  background: linear-gradient(180deg, rgba(26, 19, 99, 0) 0%, #1A1363 100%);
+}
+
+.register {
+  display: flex;
+  justify-content: center; /* Center the text horizontally */
+  align-items: center; /* Center the text vertically */
+  padding: 5px 10px; /* Adjust padding for a smaller box */
+
+  position: absolute;
+  width: 80px; /* Adjust width */
+  height: 30px; /* Adjust height */
+  left: 1404px;
+  top: 16px;
+
+  background: #FDEE21;
+  border-radius: 50px;
+  font-weight: bold; /* Ensure text is bold */
+  font-family: 'Poetsen One', sans-serif; /* Ensure consistent font */
+}
+
+.rectangle68 {
+  position: absolute;
+  width: 1600px;
+  height: 729px;
+  left: 0px;
+  top: 700px;
+
+  background: #1A1363;
+}
+
+/* About STAMINA GYM FOR MAN & WOMAN */
+.about-text {
+  position: absolute;
+  width: 740px;
+  height: 85px;
+  left: 434px;
+  top: 752px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #FFFFFF;
+}
+
+/* Stamina Gym Fitness Center provides proper training and conditioning for members who want to improve and transform their body with Program depend on the body composition. */
+.fitness-text {
+  position: absolute;
+  width: 644px;
+  height: 97px;
+  left: 569px;
+  top: 872px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+
+  color: #FFFF7D;
+}
+
+
+
+
+
+
