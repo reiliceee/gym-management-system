@@ -132,9 +132,29 @@
   font-family: 'Poetsen One', sans-serif; /* Ensure consistent font */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 10px;
+
+  position: absolute;
+  width: 151px;
+  height: 64px;
+  left: 1300px;
+  top: 6px;
+
+  border-radius: 10px;
+}
+
 .rectangle68 {
   position: absolute;
-  width: 1600px;
+  width: 1545px;
   height: 729px;
   left: 0px;
   top: 700px;
@@ -161,13 +181,38 @@
   color: #FFFFFF;
 }
 
+
+
+/* Add this CSS for the new image */
+.muscles-image {
+  position: absolute;
+  width: 1102px;
+  height: 1558px;
+  left: -10px;
+  top: 337px;
+  background-size: cover;
+}
+
+/* CSS for Rectangle 71 */
+.rectangle71 {
+  position: absolute;
+  width: 381px;
+  height: 573px;
+  left: 1159px;
+  top: 856px;
+  z-index: 0; /* Ensure the image is behind other content */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url('./Images/Rectangle71.png');
+}
+
 /* Stamina Gym Fitness Center provides proper training and conditioning for members who want to improve and transform their body with Program depend on the body composition. */
 .fitness-text {
   position: absolute;
   width: 644px;
   height: 97px;
-  left: 569px;
+  left: 600px;
   top: 872px;
+  z-index: 1; /* Ensure the image is behind other content */
 
   font-family: 'Poppins';
   font-style: normal;
@@ -177,6 +222,83 @@
   letter-spacing: 0.05em;
 
   color: #FFFF7D;
+}
+
+/* What we Offer*/
+
+.offer {
+  position: absolute;
+  width: 658px;
+  height: 43px;
+  left: 750px;
+  top: 1033px;
+
+  font-family: 'Actor';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+
+  color: #FFFFFF;
+
+}
+
+
+/* Pills gradient background */
+.rectangle72 {
+  position: absolute;
+  width: 381px;
+  height: 577px;
+  left: 1059px;
+  top: 850px;
+  z-index: 0; /* Ensure it's behind other content */
+  background: linear-gradient(95.61deg, #1A1363 3.95%, rgba(26, 19, 99, 0) 114.71%);
+}
+
+/* CSS for Group 31 */
+.group-31 {
+  position: absolute;
+  width: 211px;
+  height: 211px;
+  left: 1035px;
+  top: 1097px;
+}
+
+/* 1 on 1 trainer */
+
+.rectangle57 {
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 211px;
+  height: 211px;
+  left: 752px;
+  top: 1097px;
+}
+
+/* 24/7 chat */
+
+.rectangle571 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 211px;
+  height: 211px;
+  left: 452px;
+  top: 1097px;
+
+
+}
+
+/* Trainer part */
+.rectangle79 {
+  position: absolute;
+  width: 1550px;
+  height: 522px;
+  left: -2px;
+  top: 1429px;
+  background: #ECE9E9;
 }
 
 
