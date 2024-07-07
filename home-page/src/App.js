@@ -186,7 +186,7 @@ function App() {
       {/* Add your COACHES section here */}
       <div className="text-4xl text-center text-white underline max-w-[198px] tracking-[4px] coach">
         COACHES
-      </div>>
+      </div>
 
       {/* Lastbackground Image */}
       <div className="rectangle52"></div>
